@@ -8,7 +8,7 @@ import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Splash extends AppCompatActivity {
+public class SplashActivity extends AppCompatActivity {
     private ImageView iv;
     private ImageView logo;
 
