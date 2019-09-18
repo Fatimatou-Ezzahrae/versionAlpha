@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">VersionAlpha</string>
+    <string name="login_email">Email</string>
+    <string name="login_password">Password</string>
+    <string name="login">Login</string>
+    <string name="Register_Me">Register Me</string>
 </resources>

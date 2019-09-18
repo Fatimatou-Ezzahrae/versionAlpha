@@ -1,4 +1,4 @@
-package com.example.versionalpha;
+package com.example.versionalpha.activities.intro;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,6 +7,9 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.versionalpha.activities.auth.LoginActivity;
+import com.example.versionalpha.R;
 
 public class SplashActivity extends AppCompatActivity {
     private ImageView iv;

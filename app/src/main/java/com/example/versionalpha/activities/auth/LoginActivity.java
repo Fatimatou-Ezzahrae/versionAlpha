@@ -1,8 +1,10 @@
-package com.example.versionalpha;
+package com.example.versionalpha.activities.auth;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.versionalpha.R;
 
 public class LoginActivity extends AppCompatActivity {
 
