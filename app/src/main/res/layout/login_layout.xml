@@ -19,12 +19,11 @@
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/iv_user"
-        android:layout_centerHorizontal="true"
         android:layout_marginTop="1dp"
         android:background="@color/white"
+        android:drawableLeft="@drawable/icon_email"
         android:ems="10"
         android:hint="@string/login_email"
-        android:drawableLeft="@drawable/icon_email"
         android:inputType="textEmailAddress"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="20sp" />
@@ -63,7 +62,7 @@
         android:layout_below="@+id/btn_login"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
-        android:text="@string/Register_Me"
+        android:text="@string/register_me"
         android:textColor="@color/white"
         android:textStyle="bold"
         android:textSize="18sp" />

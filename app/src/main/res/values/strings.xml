@@ -1,7 +1,20 @@
 <resources>
     <string name="app_name">VersionAlpha</string>
+
+    //LoginActivity
     <string name="login_email">Email</string>
     <string name="login_password">Password</string>
     <string name="login">Login</string>
-    <string name="Register_Me">Register Me</string>
+    <string name="register_me">Register Me</string>
+
+    //RegisterActivity
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="country">Country</string>
+    <string name="register">Register</string>
+
 </resources>

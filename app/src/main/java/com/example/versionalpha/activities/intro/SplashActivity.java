@@ -12,8 +12,7 @@ import com.example.versionalpha.activities.auth.LoginActivity;
 import com.example.versionalpha.R;
 
 public class SplashActivity extends AppCompatActivity {
-    private ImageView iv;
-    private ImageView logo;
+    private ImageView iv, logo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,7 +27,7 @@ public class SplashActivity extends AppCompatActivity {
         Thread timer = new Thread() {
             public void run() {
                 try {
-                    sleep(5000);
+                    sleep(3000);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 } finally {
