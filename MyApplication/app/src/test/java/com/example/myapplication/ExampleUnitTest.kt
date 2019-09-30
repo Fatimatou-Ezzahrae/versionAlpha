@@ -5,7 +5,7 @@ import org.junit.Test
 import org.junit.Assert.*
 
 /**
- * Example local unit bg_login, which will execute on the development machine (host).
+ * Example local unit bg_login_page, which will execute on the development machine (host).
  *
  * See [testing documentation](http://d.android.com/tools/testing).
  */

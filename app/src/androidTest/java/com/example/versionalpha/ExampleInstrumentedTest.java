@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 import static org.junit.Assert.*;
 
 /**
- * Instrumented bg_login, which will execute on an Android device.
+ * Instrumented bg_login_page, which will execute on an Android device.
  *
  * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
  */
@@ -19,7 +19,7 @@ import static org.junit.Assert.*;
 public class ExampleInstrumentedTest {
     @Test
     public void useAppContext() {
-        // Context of the app under bg_login.
+        // Context of the app under bg_login_page.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
         assertEquals("com.example.versionalpha", appContext.getPackageName());

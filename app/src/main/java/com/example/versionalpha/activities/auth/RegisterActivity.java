@@ -8,6 +8,8 @@ import android.widget.EditText;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.versionalpha.R;
+import com.example.versionalpha.backend.model.RegisterUser;
+
 
 public class RegisterActivity extends AppCompatActivity {
     private EditText et_firstname, et_lastname, et_username, et_password, et_email, et_phone, et_country;
@@ -33,22 +35,28 @@ public class RegisterActivity extends AppCompatActivity {
         btn_register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                try {
-                    firstname = et_firstname.getText().toString();
-                    lastname = et_lastname.getText().toString();
-                    username = et_username.getText().toString();
-                    password = et_password.getText().toString();
-                    email = et_email.getText().toString();
-                    phone = et_phone.getText().toString();
-                    country = et_country.getText().toString();
 
-                    //ToDo: Creating the profile of a new user then redirect him to DashbordActivity
-                } catch (Exception ex) {
-                }
-
+                firstname = et_firstname.getText().toString();
+                lastname = et_lastname.getText().toString();
+                username = et_username.getText().toString();
+                password = et_password.getText().toString();
+                email = et_email.getText().toString();
+                phone = et_phone.getText().toString();
+                country = et_country.getText().toString();
+                register( firstname,  lastname,  email,  phone,  password);
             }
         });
 
-
     }
+
+
+
+    public void register(String firstname, String lastname, String email, String phone, String password){
+        RegisterUser ru =new RegisterUser( firstname,  lastname,  email,  phone,  password);
+        //TODO; Override methodes of UserClient
+    }
+
+
 }
+
+
