@@ -14,16 +14,16 @@ import retrofit2.http.Query;
 
 public interface UserClient {
 
-    @GET("/#api-Authentication-LoginUser")
+    @GET("/users/login")
     Call<List<LoginUser>> getTodos();
 
-    @GET("/#api-Authentication-LoginUser/{id}")
+    @GET("/users/login")
     Call<LoginUser> getTodo(@Path("id") int id);
 
-    @GET("/#api-Authentication-LoginUser")
+    @GET("/users/login")
     Call<List<LoginUser>> getTodosUsingQuery(@Query("userId") int userId, @Query("completed") boolean completed);
 
-    @POST("/#api-Authentication-LoginUser")
+    @POST("/users/login")
     Call<LoginUser> postTodo(@Body  LoginUser loginUser);
 
     //methodes of registration
